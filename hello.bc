@@ -1,0 +1,12 @@
+class hello(){
+    .method public int main() {
+        iconst_5;
+        iconst_3;
+        iadd;
+        istore 0;
+
+        iload 0;
+        ireturn;
+    }
+
+}
