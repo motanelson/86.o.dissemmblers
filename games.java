@@ -13,18 +13,13 @@
     private int enemy=0;
     private int enemycount=3;
     
-    private int tsleep=90000000;
-    void usleep(int u){
-        int i=9000000;
-        int n=0;
-        int m=0;
-        for(m=0;m<u;m++){
-            for(n=0;n<i;n++);
-        }
-    }
+    private int tsleep=100;
+    
     void debugs(String c){
        System.out.println(c);
-        usleep(tsleep);
+       try {
+           Thread.sleep(tsleep);
+       }catch (Exception e){}
     }
     void checkgameover(){
         //put you code here
