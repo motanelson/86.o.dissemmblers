@@ -1,3 +1,0 @@
-lst1|Listbox
-lbl1|Label|,text="hello world...."
-txt1|Text
