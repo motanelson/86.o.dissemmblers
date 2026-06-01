@@ -1,1 +1,1 @@
-paint demo application
+reset work vars
