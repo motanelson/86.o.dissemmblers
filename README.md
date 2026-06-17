@@ -1,1 +1,2 @@
-reset work vars
+
+Dissembler of objects of .c32
